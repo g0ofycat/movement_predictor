@@ -1,0 +1,7 @@
+{
+    "settings": {
+        "movement_data_path": "movement_predictor\\src\\data\\movement_data.json",
+        "model_data_path": "movement_predictor\\src\\data\\model_data.json",
+        "valid_keys": ["w", "a", "s", "d"]
+    }
+}
