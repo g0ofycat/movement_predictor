@@ -18,16 +18,18 @@ output_dim = Y.shape[1]
 hidden_dim = 64
 hidden_layers = 3
 dropout_rate = 0.0
-epochs = 25000
+epochs = 10000
 learning_rate = 0.001
 
 network = FeedForwardNetwork(input_dim=input_dim, hidden_dim=hidden_dim, output_dim=output_dim, hidden_layers=hidden_layers, dropout_rate=dropout_rate)
 
 # === TRAINING ===
 
+"""
 network.train(X, Y, epochs=epochs, learning_rate=learning_rate)
 
 network.save_model(settings['settings']['model_data_path'])
+"""
 
 # === PREDICT ===
 
