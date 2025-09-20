@@ -34,7 +34,8 @@ class KeyboardPredictor:
 
     def auto_press_keys(self, stop_key='q', base_interval=0.15, randomize_timing=True):
         stop_key = stop_key.lower()
-        prev_key = self.key_order[0]
+        
+        current_key = random.choice(self.key_order)
         is_running = False
         key_pressed = False
         
@@ -54,47 +55,61 @@ class KeyboardPredictor:
                         
                         if is_running:
                             print("Auto-press started")
-                            keyboard.press(prev_key)
+                            keyboard.press(current_key)
                             last_press_time = current_time
-                            self.last_action = prev_key
+                            self.last_action = current_key
                             self.last_action_time = current_time
                         else:
                             print("Auto-press paused")
-                            keyboard.release(prev_key)
+                            for key in self.key_order:
+                                keyboard.release(key)
                 else:
                     key_pressed = False
 
                 if is_running:
                     time_since_last = current_time - last_press_time
+
+                    actual_interval = base_interval + random.uniform(-0.05, 0.05) if randomize_timing else base_interval
                     
-                    if time_since_last >= base_interval:
+                    if time_since_last >= actual_interval:
                         combo_size = 2 if random.random() < 0.1 else 1
                         
-                        next_key = self.predict_next_key(prev_key, time_since_last, combo_size)
+                        predicted_key = self.predict_next_key(current_key, time_since_last, combo_size)
                         
-                        if next_key != prev_key:
-                            keyboard.release(prev_key)
-                            keyboard.press(next_key)
+                        if predicted_key == current_key:
+                            if random.random() < 0.3:
+                                available_keys = [k for k in self.key_order if k != current_key]
+                                predicted_key = random.choice(available_keys)
+                                print(f"[FORCED CHANGE] From {current_key.upper()} to {predicted_key.upper()}")
+                        
+                        if predicted_key != current_key:
+                            keyboard.release(current_key)
+                            time.sleep(0.01)
+                            keyboard.press(predicted_key)
                             
-                            prev_key = next_key
+                            print(f"[{self.action_count}] {current_key.upper()} → {predicted_key.upper()}")
+                            
+                            current_key = predicted_key
                             last_press_time = current_time
+                            self.last_action = current_key
+                            self.last_action_time = current_time
                             self.action_count += 1
-                            
-                            print(f"[{self.action_count}] Switched to: {next_key.upper()}")
-                
+                        else:
+                            last_press_time = current_time
+
                 if randomize_timing:
-                    sleep_time = random.uniform(0.03, 0.07)
+                    sleep_time = random.uniform(0.01, 0.03)
                 else:
-                    sleep_time = 0.05
+                    sleep_time = 0.02
                     
                 time.sleep(sleep_time)
 
         except KeyboardInterrupt:
             print("\nStopping auto-press")
         finally:
-            if is_running:
-                keyboard.release(prev_key)
-            print(f"Auto-press ended")
+            for key in self.key_order:
+                keyboard.release(key)
+            print(f"Auto-press ended. Total actions: {self.action_count}")
 
     def test_prediction_accuracy(self, test_data_x, test_data_y, num_samples=100):
         if len(test_data_x) == 0:
@@ -105,7 +120,7 @@ class KeyboardPredictor:
         indices = np.random.choice(len(test_data_x), sample_size, replace=False)
         
         correct = 0
-        
+
         for i in indices:
             pred_probs = self.net.predict(np.array([test_data_x[i]]))[0]
             predicted_idx = np.argmax(pred_probs)
