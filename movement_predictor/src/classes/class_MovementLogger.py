@@ -73,17 +73,31 @@ class MovementLogger:
         max_delta = 10.0
         normalized_delta = min(delta / max_delta, 1.0)
 
+        if delta > 0:
+            velocity = 1.0 / delta
+            max_velocity = 1.0 / 0.1
+            norm_vel_0_1 = min(velocity / max_velocity, 1.0)
+        else:
+            norm_vel_0_1 = 1.0
+
+        final_velocity = norm_vel_0_1
+
         self.data.append({
             'timestamp': now,
             'datetime': str(datetime.fromtimestamp(now)),
             'action': action,
             'time_since_last_action': normalized_delta,
+            'velocity': final_velocity,
             'previous_action': self.last_action,
             'action_sequence': [d['action'] for d in self.data[-5:]]
         })
 
         self.last_action, self.last_action_time = action, now
-        print(f"[{len(self.data)}] {action.upper()} (Time since last: {delta:.2f}s, Normalized Time: {normalized_delta:.2f})")
+
+        print(
+            f"[{len(self.data)}] {action.upper()} "
+            f"(Time since last: {delta:.2f}s, Normalized: {normalized_delta:.2f}, Velocity: {final_velocity:.2f})"
+        )
 
     def _convert_to_training_format(self) -> Tuple[np.ndarray, np.ndarray]:
         if not self.data:
@@ -96,7 +110,7 @@ class MovementLogger:
         for d in self.data[1:]:
             prev = d['previous_action']
             
-            X.append([d['time_since_last_action']] + [1 if prev == k else 0 for k in settings['settings']['valid_keys']])
+            X.append([d['time_since_last_action'], d['velocity']] + [1 if prev == k else 0 for k in settings['settings']['valid_keys']])
             Y.append(action_map[d['action']])
 
         return np.array(X), np.array(Y)

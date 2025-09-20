@@ -39,4 +39,4 @@ predictor = KeyboardPredictor(network, settings['settings']['valid_keys'])
 
 # print(network.get_model_info())
 
-print(f'Predicted: {predictor.predict_next_key("W", 0.1)}')
+predictor.auto_press_keys()
