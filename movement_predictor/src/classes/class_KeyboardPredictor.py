@@ -17,10 +17,9 @@ class KeyboardPredictor:
 
         prev_one_hot = [1 if prev_action.lower() == k else 0 for k in self.key_order]
         X_test = np.array([[time_norm, vel_norm, *prev_one_hot]])
-        logits = self.net.predict(X_test)
-        probs = np.array([MathLib.Softmax(row) for row in logits])
-        
-        return self.key_order[np.argmax(probs[0])]
+
+        pred_idx = self.net.predict(X_test)[0]  
+        return self.key_order[pred_idx]
 
     def auto_press_keys(predictor, stop_key='q'):
         stop_key = stop_key.lower()

@@ -85,11 +85,11 @@ class FeedForwardNetwork:
         
         x = np.atleast_2d(x)
         y_true = np.atleast_2d(y_true)
-        m = x.shape[0]
 
         activations, pre_activations, dropout_masks = self.forward_propagation(x)
         
-        delta = 2 * (activations[-1] - y_true) / m
+        y_pred = MathLib.Softmax(activations[-1])
+        delta = MathLib.CrossEntropyLoss_derivative(y_true, y_pred)
 
         for layer in reversed(range(len(self.weights))):
             if layer < len(self.weights) - 1:
@@ -137,19 +137,25 @@ class FeedForwardNetwork:
                 self.back_propagation(x_batch, y_batch, learning_rate)
             
             if epoch % 10 == 0 or epoch == epochs - 1:
-                y_pred = self.forward_propagation(x_train)[0][-1]
-                loss = MathLib.MeanSquaredError(y_train, y_pred)
+                y_pred_logits = self.forward_propagation(x_train)[0][-1]
+                y_pred = MathLib.Softmax(y_pred_logits)
+                loss = MathLib.CrossEntropyLoss(y_train, y_pred)
+
                 loss_history.append(loss)
                 
                 if verbose and epoch % 100 == 0:
-                    print(f"Epoch {epoch:04d} | Loss: {loss:.6f}")
+                    y_pred_classes = np.argmax(y_pred, axis=1)
+                    y_true_classes = np.argmax(y_train, axis=1)
+                    acc = np.mean(y_pred_classes == y_true_classes) * 100
+                    print(f"Epoch {epoch:04d} | Loss: {loss:.6f} | Accuracy: {acc:.2f}%")
         
         return loss_history
 
-    def predict(self, x: np.ndarray) -> np.ndarray:
+    def predict(self, x):
         activations, _, _ = self.forward_propagation(x, apply_dropout=False)
-
-        return activations[-1]
+        logits = activations[-1]
+        y_pred = MathLib.Softmax(logits)
+        return np.argmax(y_pred, axis=1)
     
     # ====== MODEL ======
 

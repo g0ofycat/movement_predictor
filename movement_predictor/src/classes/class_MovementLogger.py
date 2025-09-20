@@ -75,7 +75,7 @@ class MovementLogger:
 
         if delta > 0:
             velocity = 1.0 / delta
-            max_velocity = 1.0 / 0.1
+            max_velocity = 5.0  
             norm_vel_0_1 = min(velocity / max_velocity, 1.0)
         else:
             norm_vel_0_1 = 1.0
@@ -104,14 +104,21 @@ class MovementLogger:
             return np.array([]), np.array([])
 
         X, Y = [], []
-
-        action_map = {k: [1 if i == idx else 0 for i in range(len(settings['settings']['valid_keys']))] for idx, k in enumerate(settings['settings']['valid_keys'])}
+        action_map = {k: [1 if i == idx else 0 for i in range(len(settings['settings']['valid_keys']))] 
+                    for idx, k in enumerate(settings['settings']['valid_keys'])}
 
         for d in self.data[1:]:
             prev = d['previous_action']
+            current = d['action']
             
-            X.append([d['time_since_last_action'], d['velocity']] + [1 if prev == k else 0 for k in settings['settings']['valid_keys']])
-            Y.append(action_map[d['action']])
+            if prev == current:
+                continue
+                
+            X.append([d['time_since_last_action'], d['velocity']] + 
+                    [1 if prev == k else 0 for k in settings['settings']['valid_keys']])
+            Y.append(action_map[current])
+
+        print(f"Filtered training data: {len(Y)} transitions from {len(self.data)} total events")
 
         return np.array(X), np.array(Y)
     
