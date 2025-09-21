@@ -1,0 +1,13 @@
+{
+  "information": {
+    "name": "Wanderer",
+    "description": "Basic Model used for general pathfinding."
+  },
+  
+  "keyboard_settings": {
+    "key_hold_time": 1.5,
+    "hold_deviation": 0.5,
+    "base_interval": 0.15,
+    "randomize_timing": true
+  }
+}

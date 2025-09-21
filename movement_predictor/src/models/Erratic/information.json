@@ -1,0 +1,13 @@
+{
+  "information": {
+    "name": "Erratic",
+    "description": "Basic Model for erratic movement."
+  },
+  
+  "keyboard_settings": {
+    "key_hold_time": 0.2,
+    "hold_deviation": 0.1,
+    "base_interval": 0.1,
+    "randomize_timing": true
+  }
+}

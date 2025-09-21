@@ -4,6 +4,8 @@ import random
 import keyboard
 from typing import List
 
+from src.config.settings import settings
+
 class KeyboardPredictor:
     def __init__(self, network, key_order: List[str]):
         self.net = network
@@ -32,7 +34,7 @@ class KeyboardPredictor:
         self.last_action_time = None
         self.action_count = 0
 
-    def auto_press_keys(self, stop_key='q', base_interval=0.15, randomize_timing=True):
+    def auto_press_keys(self, stop_key='q', base_interval=settings['keyboard_settings']['base_interval'], randomize_timing=settings['keyboard_settings']['randomize_timing']):
         stop_key = stop_key.lower()
         prev_key = self.key_order[0]
         is_running = False
@@ -46,7 +48,7 @@ class KeyboardPredictor:
         try:
             while True:
                 current_time = time.time()
-                
+
                 if keyboard.is_pressed(stop_key):
                     if not key_pressed:
                         key_pressed = True
@@ -69,7 +71,6 @@ class KeyboardPredictor:
                     
                     if time_since_last >= base_interval:
                         combo_size = 2 if random.random() < 0.1 else 1
-                        
                         next_key = self.predict_next_key(prev_key, time_since_last, combo_size)
                         
                         if next_key != prev_key:
@@ -81,13 +82,21 @@ class KeyboardPredictor:
                             self.action_count += 1
                             
                             print(f"[{self.action_count}] Switched to: {next_key.upper()}")
-                
+
                 if randomize_timing:
-                    sleep_time = random.uniform(0.03, 0.07)
+                    sleep_time = random.uniform(
+                        settings["keyboard_settings"]["key_hold_time"] - settings["keyboard_settings"]["hold_deviation"],
+                        settings["keyboard_settings"]["key_hold_time"] + settings["keyboard_settings"]["hold_deviation"]
+                    )
                 else:
-                    sleep_time = 0.05
-                    
-                time.sleep(sleep_time)
+                    sleep_time = settings['keyboard_settings']['key_hold_time']
+
+                end_time = time.time() + sleep_time
+                
+                while time.time() < end_time:
+                    if keyboard.is_pressed(stop_key):
+                        break
+                    time.sleep(0.01)
 
         except KeyboardInterrupt:
             print("\nStopping auto-press")

@@ -154,14 +154,12 @@ class FeedForwardNetwork:
     # ====== PREDICTION METHODS ======
     
     def predict_classes(self, x):
-        """Returns predicted class indices (original predict method)"""
         activations, _, _ = self.forward_propagation(x, apply_dropout=False)
         logits = activations[-1]
         y_pred = MathLib.Softmax(logits)
         return np.argmax(y_pred, axis=1)
     
     def predict(self, x):
-        """Returns probability distributions (what KeyboardPredictor expects)"""
         activations, _, _ = self.forward_propagation(x, apply_dropout=False)
         logits = activations[-1]
         y_pred = MathLib.Softmax(logits)
