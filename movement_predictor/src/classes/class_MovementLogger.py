@@ -19,6 +19,7 @@ class MovementLogger:
     def start_logging(self):
         self.collecting = True
         self.data.clear()
+        print(f"Model being saved to {self.save_path}")
         print(f"Starting key logging. Press '{self.stop_key.upper()}' to stop")
         self._start_keyboard_detection()
 

@@ -5,6 +5,7 @@
   },
   
   "keyboard_settings": {
+    "valid_keys": ["w", "a", "s", "d"],
     "key_hold_time": 1.5,
     "hold_deviation": 0.5,
     "base_interval": 0.15,

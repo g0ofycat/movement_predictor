@@ -1,0 +1,4549 @@
+{
+  "raw_data": [
+    {
+      "timestamp": 1758476265.1184616,
+      "datetime": "2025-09-21 13:37:45.118462",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476265.2468672,
+      "datetime": "2025-09-21 13:37:45.246867",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12840557098388672,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476265.2658072,
+      "datetime": "2025-09-21 13:37:45.265807",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.14734554290771484,
+      "time_since_last": 0.018939971923828125,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476265.331887,
+      "datetime": "2025-09-21 13:37:45.331887",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.08501982688903809,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476265.3862505,
+      "datetime": "2025-09-21 13:37:45.386250",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.13938331604003906,
+      "time_since_last": 0.05436348915100098,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476265.422053,
+      "datetime": "2025-09-21 13:37:45.422053",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09016609191894531,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476265.5252388,
+      "datetime": "2025-09-21 13:37:45.525239",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10318565368652344,
+      "time_since_last": 0.10318565368652344,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476265.5366814,
+      "datetime": "2025-09-21 13:37:45.536681",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.11462831497192383,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476265.6524642,
+      "datetime": "2025-09-21 13:37:45.652464",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1157827377319336,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476265.7076876,
+      "datetime": "2025-09-21 13:37:45.707688",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.37580060958862305,
+      "time_since_last": 0.05522346496582031,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476265.7755666,
+      "datetime": "2025-09-21 13:37:45.775567",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.23888516426086426,
+      "time_since_last": 0.12310242652893066,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476265.9395494,
+      "datetime": "2025-09-21 13:37:45.939549",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.28708529472351074,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476266.001439,
+      "datetime": "2025-09-21 13:37:46.001439",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.34897494316101074,
+      "time_since_last": 0.0618896484375,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476266.2635093,
+      "datetime": "2025-09-21 13:37:46.263509",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3239598274230957,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476266.35687,
+      "datetime": "2025-09-21 13:37:46.356870",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.41732048988342285,
+      "time_since_last": 0.09336066246032715,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476266.5047114,
+      "datetime": "2025-09-21 13:37:46.504711",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.24120211601257324,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476266.6238358,
+      "datetime": "2025-09-21 13:37:46.623836",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.1191244125366211,
+      "time_since_last": 0.1191244125366211,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476266.6825724,
+      "datetime": "2025-09-21 13:37:46.682572",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.17786097526550293,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476266.704726,
+      "datetime": "2025-09-21 13:37:46.704726",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.44121670722961426,
+      "time_since_last": 0.022153615951538086,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476266.9192932,
+      "datetime": "2025-09-21 13:37:46.919293",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23672080039978027,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476266.98413,
+      "datetime": "2025-09-21 13:37:46.984130",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.06483674049377441,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476266.9999192,
+      "datetime": "2025-09-21 13:37:46.999919",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.31734681129455566,
+      "time_since_last": 0.015789270401000977,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.085727,
+      "datetime": "2025-09-21 13:37:47.085727",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.16643381118774414,
+      "time_since_last": 0.10159707069396973,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476267.1220737,
+      "datetime": "2025-09-21 13:37:47.122074",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.13794374465942383,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.2357392,
+      "datetime": "2025-09-21 13:37:47.235739",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.11366558074951172,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476267.2904081,
+      "datetime": "2025-09-21 13:37:47.290408",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.3062782287597656,
+      "time_since_last": 0.05466890335083008,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.3846803,
+      "datetime": "2025-09-21 13:37:47.384680",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.2626066207885742,
+      "time_since_last": 0.1489410400390625,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476267.4003356,
+      "datetime": "2025-09-21 13:37:47.400336",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1645963191986084,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.5236695,
+      "datetime": "2025-09-21 13:37:47.523669",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.2879302501678467,
+      "time_since_last": 0.12333393096923828,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476267.5326557,
+      "datetime": "2025-09-21 13:37:47.532656",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.13232016563415527,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.590425,
+      "datetime": "2025-09-21 13:37:47.590425",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.19008946418762207,
+      "time_since_last": 0.0577692985534668,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476267.650298,
+      "datetime": "2025-09-21 13:37:47.650298",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.11764240264892578,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.838733,
+      "datetime": "2025-09-21 13:37:47.838733",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.18843483924865723,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476267.8684428,
+      "datetime": "2025-09-21 13:37:47.868443",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.3357870578765869,
+      "time_since_last": 0.029709815979003906,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476267.9266675,
+      "datetime": "2025-09-21 13:37:47.926667",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.2763693332672119,
+      "time_since_last": 0.08793449401855469,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476267.931904,
+      "datetime": "2025-09-21 13:37:47.931904",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.0931711196899414,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476268.2843392,
+      "datetime": "2025-09-21 13:37:48.284339",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.4456062316894531,
+      "time_since_last": 0.3524351119995117,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476268.2968912,
+      "datetime": "2025-09-21 13:37:48.296891",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3649871349334717,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476268.3911278,
+      "datetime": "2025-09-21 13:37:48.391128",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09423661231994629,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476268.5133853,
+      "datetime": "2025-09-21 13:37:48.513385",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.12225747108459473,
+      "time_since_last": 0.12225747108459473,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476268.5256472,
+      "datetime": "2025-09-21 13:37:48.525647",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.22875595092773438,
+      "time_since_last": 0.13451933860778809,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476268.703716,
+      "datetime": "2025-09-21 13:37:48.703716",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3125882148742676,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476268.8171613,
+      "datetime": "2025-09-21 13:37:48.817161",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.8852572441101074,
+      "time_since_last": 0.11344528198242188,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476269.1099544,
+      "datetime": "2025-09-21 13:37:49.109954",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.406238317489624,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476269.442175,
+      "datetime": "2025-09-21 13:37:49.442175",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.7384588718414307,
+      "time_since_last": 0.33222055435180664,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476269.6954904,
+      "datetime": "2025-09-21 13:37:49.695490",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.585536003112793,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476269.7393587,
+      "datetime": "2025-09-21 13:37:49.739359",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.6294043064117432,
+      "time_since_last": 0.043868303298950195,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476270.0126553,
+      "datetime": "2025-09-21 13:37:50.012655",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.31716489791870117,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476270.23402,
+      "datetime": "2025-09-21 13:37:50.234020",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.22136473655700684,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476270.2552419,
+      "datetime": "2025-09-21 13:37:50.255242",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.5597515106201172,
+      "time_since_last": 0.02122187614440918,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476270.6182156,
+      "datetime": "2025-09-21 13:37:50.618216",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.605560302734375,
+      "time_since_last": 0.38419556617736816,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476270.7474737,
+      "datetime": "2025-09-21 13:37:50.747474",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.5134537220001221,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476270.8375943,
+      "datetime": "2025-09-21 13:37:50.837594",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.09012055397033691,
+      "time_since_last": 0.09012055397033691,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476270.970327,
+      "datetime": "2025-09-21 13:37:50.970327",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2228531837463379,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476271.0723019,
+      "datetime": "2025-09-21 13:37:51.072302",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1019749641418457,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476271.1018045,
+      "datetime": "2025-09-21 13:37:51.101804",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.13147759437561035,
+      "time_since_last": 0.02950263023376465,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476271.2066534,
+      "datetime": "2025-09-21 13:37:51.206653",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.13435149192810059,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476271.2212708,
+      "datetime": "2025-09-21 13:37:51.221271",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.987250804901123,
+      "time_since_last": 0.014617443084716797,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476271.3332431,
+      "datetime": "2025-09-21 13:37:51.333243",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12658977508544922,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476271.4307666,
+      "datetime": "2025-09-21 13:37:51.430767",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.09752345085144043,
+      "time_since_last": 0.09752345085144043,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476271.4443467,
+      "datetime": "2025-09-21 13:37:51.444347",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.37204480171203613,
+      "time_since_last": 0.11110353469848633,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476271.5371654,
+      "datetime": "2025-09-21 13:37:51.537165",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.20392227172851562,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476271.8385096,
+      "datetime": "2025-09-21 13:37:51.838510",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.6318562030792236,
+      "time_since_last": 0.3013441562652588,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476271.9975832,
+      "datetime": "2025-09-21 13:37:51.997583",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.4604177474975586,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476272.0892792,
+      "datetime": "2025-09-21 13:37:52.089279",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.5521137714385986,
+      "time_since_last": 0.09169602394104004,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476272.181319,
+      "datetime": "2025-09-21 13:37:52.181319",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.18373584747314453,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476272.3142126,
+      "datetime": "2025-09-21 13:37:52.314213",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.13289356231689453,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476272.3199031,
+      "datetime": "2025-09-21 13:37:52.319903",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.13858413696289062,
+      "time_since_last": 0.005690574645996094,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476272.3463628,
+      "datetime": "2025-09-21 13:37:52.346363",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.34877967834472656,
+      "time_since_last": 0.0321502685546875,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476272.586549,
+      "datetime": "2025-09-21 13:37:52.586549",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.272336483001709,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476272.7081718,
+      "datetime": "2025-09-21 13:37:52.708172",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.39395928382873535,
+      "time_since_last": 0.12162280082702637,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476272.80217,
+      "datetime": "2025-09-21 13:37:52.802170",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2156209945678711,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476272.9466236,
+      "datetime": "2025-09-21 13:37:52.946624",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.360074520111084,
+      "time_since_last": 0.1444535255432129,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476273.3632367,
+      "datetime": "2025-09-21 13:37:53.363237",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.5610666275024414,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476273.4274518,
+      "datetime": "2025-09-21 13:37:53.427452",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.625281810760498,
+      "time_since_last": 0.06421518325805664,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476273.7317994,
+      "datetime": "2025-09-21 13:37:53.731799",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3685626983642578,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476273.7598596,
+      "datetime": "2025-09-21 13:37:53.759860",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.396622896194458,
+      "time_since_last": 0.028060197830200195,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476273.9500358,
+      "datetime": "2025-09-21 13:37:53.950036",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.21823644638061523,
+      "time_since_last": 0.21823644638061523,
+      "combo_size": 0
+    },
+    {
+      "timestamp": 1758476274.0622785,
+      "datetime": "2025-09-21 13:37:54.062279",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.33047914505004883,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476274.0903687,
+      "datetime": "2025-09-21 13:37:54.090369",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.028090238571166992,
+      "time_since_last": 0.028090238571166992,
+      "combo_size": 0
+    },
+    {
+      "timestamp": 1758476274.1635902,
+      "datetime": "2025-09-21 13:37:54.163590",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.10131168365478516,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476274.6216552,
+      "datetime": "2025-09-21 13:37:54.621655",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.4580650329589844,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476274.7542086,
+      "datetime": "2025-09-21 13:37:54.754209",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.590618371963501,
+      "time_since_last": 0.1325533390045166,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476274.9147205,
+      "datetime": "2025-09-21 13:37:54.914721",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.29306530952453613,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476274.9798393,
+      "datetime": "2025-09-21 13:37:54.979839",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.3581840991973877,
+      "time_since_last": 0.06511878967285156,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476274.996861,
+      "datetime": "2025-09-21 13:37:54.996861",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.08214044570922852,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476275.0662482,
+      "datetime": "2025-09-21 13:37:55.066248",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.15152764320373535,
+      "time_since_last": 0.06938719749450684,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476275.2500212,
+      "datetime": "2025-09-21 13:37:55.250021",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2531602382659912,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476275.264503,
+      "datetime": "2025-09-21 13:37:55.264503",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.2676420211791992,
+      "time_since_last": 0.014481782913208008,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476275.4214363,
+      "datetime": "2025-09-21 13:37:55.421436",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.17141509056091309,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476275.5312357,
+      "datetime": "2025-09-21 13:37:55.531236",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.10979938507080078,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476275.545149,
+      "datetime": "2025-09-21 13:37:55.545149",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.013913393020629883,
+      "combo_size": 4
+    },
+    {
+      "timestamp": 1758476275.5606701,
+      "datetime": "2025-09-21 13:37:55.560670",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.31064891815185547,
+      "time_since_last": 0.015521049499511719,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476275.6002073,
+      "datetime": "2025-09-21 13:37:55.600207",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1787710189819336,
+      "time_since_last": 0.05505824089050293,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476275.676489,
+      "datetime": "2025-09-21 13:37:55.676489",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.13134002685546875,
+      "time_since_last": 0.13134002685546875,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476275.7757883,
+      "datetime": "2025-09-21 13:37:55.775788",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23063921928405762,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476275.7970555,
+      "datetime": "2025-09-21 13:37:55.797055",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.265819787979126,
+      "time_since_last": 0.021267175674438477,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476275.9232063,
+      "datetime": "2025-09-21 13:37:55.923206",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.14741802215576172,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476276.0198486,
+      "datetime": "2025-09-21 13:37:56.019849",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.24406027793884277,
+      "time_since_last": 0.09664225578308105,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476276.1587224,
+      "datetime": "2025-09-21 13:37:56.158722",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23551607131958008,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476276.1881495,
+      "datetime": "2025-09-21 13:37:56.188149",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.26494312286376953,
+      "time_since_last": 0.029427051544189453,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476276.485316,
+      "datetime": "2025-09-21 13:37:56.485316",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.32659363746643066,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476276.5747902,
+      "datetime": "2025-09-21 13:37:56.574790",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.41606783866882324,
+      "time_since_last": 0.08947420120239258,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476276.726122,
+      "datetime": "2025-09-21 13:37:56.726122",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.24080586433410645,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476276.816108,
+      "datetime": "2025-09-21 13:37:56.816108",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.08998608589172363,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476276.8309035,
+      "datetime": "2025-09-21 13:37:56.830904",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.34558749198913574,
+      "time_since_last": 0.014795541763305664,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476276.8647437,
+      "datetime": "2025-09-21 13:37:56.864744",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.13862180709838867,
+      "time_since_last": 0.04863572120666504,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476277.0756705,
+      "datetime": "2025-09-21 13:37:57.075670",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.25956249237060547,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476277.0913186,
+      "datetime": "2025-09-21 13:37:57.091319",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.2752106189727783,
+      "time_since_last": 0.01564812660217285,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476277.21606,
+      "datetime": "2025-09-21 13:37:57.216060",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.14038944244384766,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476277.3732765,
+      "datetime": "2025-09-21 13:37:57.373276",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.2976059913635254,
+      "time_since_last": 0.15721654891967773,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476277.4050622,
+      "datetime": "2025-09-21 13:37:57.405062",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.18900227546691895,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476277.4364398,
+      "datetime": "2025-09-21 13:37:57.436440",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.22037982940673828,
+      "time_since_last": 0.031377553939819336,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476277.574255,
+      "datetime": "2025-09-21 13:37:57.574255",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.16919279098510742,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476277.634486,
+      "datetime": "2025-09-21 13:37:57.634486",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.22942376136779785,
+      "time_since_last": 0.06023097038269043,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476277.8418584,
+      "datetime": "2025-09-21 13:37:57.841858",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.26760339736938477,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476277.8836675,
+      "datetime": "2025-09-21 13:37:57.883667",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.30941247940063477,
+      "time_since_last": 0.04180908203125,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476278.1029854,
+      "datetime": "2025-09-21 13:37:58.102985",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2611269950866699,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476278.2023027,
+      "datetime": "2025-09-21 13:37:58.202303",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.3604443073272705,
+      "time_since_last": 0.09931731224060059,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476278.3176966,
+      "datetime": "2025-09-21 13:37:58.317697",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.21471118927001953,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476278.4034352,
+      "datetime": "2025-09-21 13:37:58.403435",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.0857386589050293,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476278.4181018,
+      "datetime": "2025-09-21 13:37:58.418102",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.31511640548706055,
+      "time_since_last": 0.014666557312011719,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476278.458282,
+      "datetime": "2025-09-21 13:37:58.458282",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.14058542251586914,
+      "time_since_last": 0.054846763610839844,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476278.6997464,
+      "datetime": "2025-09-21 13:37:58.699746",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2963111400604248,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476278.8218799,
+      "datetime": "2025-09-21 13:37:58.821880",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.12213349342346191,
+      "time_since_last": 0.12213349342346191,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476279.0466487,
+      "datetime": "2025-09-21 13:37:59.046649",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.34690237045288086,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476279.1613097,
+      "datetime": "2025-09-21 13:37:59.161310",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.7578744888305664,
+      "time_since_last": 0.11466097831726074,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476279.2140956,
+      "datetime": "2025-09-21 13:37:59.214096",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.16744685173034668,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476279.255179,
+      "datetime": "2025-09-21 13:37:59.255179",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.20853018760681152,
+      "time_since_last": 0.041083335876464844,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476279.4049747,
+      "datetime": "2025-09-21 13:37:59.404975",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.19087910652160645,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476279.4339187,
+      "datetime": "2025-09-21 13:37:59.433919",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.21982312202453613,
+      "time_since_last": 0.028944015502929688,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476279.729702,
+      "datetime": "2025-09-21 13:37:59.729702",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.32472729682922363,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476279.7987454,
+      "datetime": "2025-09-21 13:37:59.798745",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.393770694732666,
+      "time_since_last": 0.06904339790344238,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476279.9335613,
+      "datetime": "2025-09-21 13:37:59.933561",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2038593292236328,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476280.012576,
+      "datetime": "2025-09-21 13:38:00.012576",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.07901477813720703,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476280.0329995,
+      "datetime": "2025-09-21 13:38:00.033000",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.3032975196838379,
+      "time_since_last": 0.020423412322998047,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476280.0670338,
+      "datetime": "2025-09-21 13:38:00.067034",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.13347244262695312,
+      "time_since_last": 0.054457664489746094,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476280.3073974,
+      "datetime": "2025-09-21 13:38:00.307397",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.29482126235961914,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476280.3662608,
+      "datetime": "2025-09-21 13:38:00.366261",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.353684663772583,
+      "time_since_last": 0.05886340141296387,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476280.5944436,
+      "datetime": "2025-09-21 13:38:00.594444",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2870461940765381,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476280.6317523,
+      "datetime": "2025-09-21 13:38:00.631752",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.324354887008667,
+      "time_since_last": 0.037308692932128906,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476281.0728889,
+      "datetime": "2025-09-21 13:38:01.072889",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.47844529151916504,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476281.1102927,
+      "datetime": "2025-09-21 13:38:01.110293",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.5158491134643555,
+      "time_since_last": 0.03740382194519043,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476281.5538201,
+      "datetime": "2025-09-21 13:38:01.553820",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.48093128204345703,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476281.6015553,
+      "datetime": "2025-09-21 13:38:01.601555",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.5286664962768555,
+      "time_since_last": 0.04773521423339844,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476281.8063848,
+      "datetime": "2025-09-21 13:38:01.806385",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2525646686553955,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476281.8765032,
+      "datetime": "2025-09-21 13:38:01.876503",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.07011842727661133,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476281.883702,
+      "datetime": "2025-09-21 13:38:01.883702",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.3298819065093994,
+      "time_since_last": 0.007198810577392578,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476281.925348,
+      "datetime": "2025-09-21 13:38:01.925348",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.11896324157714844,
+      "time_since_last": 0.04884481430053711,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476282.2616138,
+      "datetime": "2025-09-21 13:38:02.261614",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.38511061668395996,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476282.3680165,
+      "datetime": "2025-09-21 13:38:02.368016",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.4915132522583008,
+      "time_since_last": 0.10640263557434082,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476282.4901886,
+      "datetime": "2025-09-21 13:38:02.490189",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2285747528076172,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476282.5329268,
+      "datetime": "2025-09-21 13:38:02.532927",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.271312952041626,
+      "time_since_last": 0.04273819923400879,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476282.905044,
+      "datetime": "2025-09-21 13:38:02.905044",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.4148554801940918,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476282.9340496,
+      "datetime": "2025-09-21 13:38:02.934050",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.4438610076904297,
+      "time_since_last": 0.02900552749633789,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476283.0251768,
+      "datetime": "2025-09-21 13:38:03.025177",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1201326847076416,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476283.0750475,
+      "datetime": "2025-09-21 13:38:03.075047",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.17000341415405273,
+      "time_since_last": 0.04987072944641113,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476283.2135158,
+      "datetime": "2025-09-21 13:38:03.213516",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1883389949798584,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476283.238906,
+      "datetime": "2025-09-21 13:38:03.238906",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.2137291431427002,
+      "time_since_last": 0.025390148162841797,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476283.575362,
+      "datetime": "2025-09-21 13:38:03.575362",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3618462085723877,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476283.6171842,
+      "datetime": "2025-09-21 13:38:03.617184",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.041822195053100586,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476283.7151356,
+      "datetime": "2025-09-21 13:38:03.715136",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.501619815826416,
+      "time_since_last": 0.09795141220092773,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476283.918219,
+      "datetime": "2025-09-21 13:38:03.918219",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.30103492736816406,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476283.9337647,
+      "datetime": "2025-09-21 13:38:03.933765",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.31658053398132324,
+      "time_since_last": 0.01554560661315918,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476283.9998538,
+      "datetime": "2025-09-21 13:38:03.999854",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.0816347599029541,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476284.028314,
+      "datetime": "2025-09-21 13:38:04.028314",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.45295214653015137,
+      "time_since_last": 0.028460264205932617,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476284.0497656,
+      "datetime": "2025-09-21 13:38:04.049766",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1315464973449707,
+      "time_since_last": 0.0499117374420166,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476284.1753147,
+      "datetime": "2025-09-21 13:38:04.175315",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1754608154296875,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476284.2759104,
+      "datetime": "2025-09-21 13:38:04.275910",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.10059571266174316,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476284.2917306,
+      "datetime": "2025-09-21 13:38:04.291731",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.29187679290771484,
+      "time_since_last": 0.01582026481628418,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476284.305023,
+      "datetime": "2025-09-21 13:38:04.305023",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.12970829010009766,
+      "time_since_last": 0.029112577438354492,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476284.5155745,
+      "datetime": "2025-09-21 13:38:04.515574",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23966407775878906,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476284.5733788,
+      "datetime": "2025-09-21 13:38:04.573379",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.2974684238433838,
+      "time_since_last": 0.05780434608459473,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476284.7561734,
+      "datetime": "2025-09-21 13:38:04.756173",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2405989170074463,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476284.7714224,
+      "datetime": "2025-09-21 13:38:04.771422",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.2558479309082031,
+      "time_since_last": 0.015249013900756836,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476284.899001,
+      "datetime": "2025-09-21 13:38:04.899001",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.14282751083374023,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.006342,
+      "datetime": "2025-09-21 13:38:05.006342",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10734105110168457,
+      "time_since_last": 0.10734105110168457,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476285.0225,
+      "datetime": "2025-09-21 13:38:05.022500",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12349915504455566,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.058079,
+      "datetime": "2025-09-21 13:38:05.058079",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.30190563201904297,
+      "time_since_last": 0.03557896614074707,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476285.1217403,
+      "datetime": "2025-09-21 13:38:05.121740",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09924030303955078,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.1560957,
+      "datetime": "2025-09-21 13:38:05.156096",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.13359570503234863,
+      "time_since_last": 0.03435540199279785,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476285.311059,
+      "datetime": "2025-09-21 13:38:05.311059",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.18931865692138672,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.3838825,
+      "datetime": "2025-09-21 13:38:05.383883",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.2621421813964844,
+      "time_since_last": 0.07282352447509766,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476285.4626856,
+      "datetime": "2025-09-21 13:38:05.462686",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1516265869140625,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.5378962,
+      "datetime": "2025-09-21 13:38:05.537896",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.226837158203125,
+      "time_since_last": 0.0752105712890625,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476285.7060437,
+      "datetime": "2025-09-21 13:38:05.706044",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.24335813522338867,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.7317066,
+      "datetime": "2025-09-21 13:38:05.731707",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.025662899017333984,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476285.849541,
+      "datetime": "2025-09-21 13:38:05.849541",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.14349722862243652,
+      "time_since_last": 0.11783432960510254,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.8536038,
+      "datetime": "2025-09-21 13:38:05.853604",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12189722061157227,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476285.8609784,
+      "datetime": "2025-09-21 13:38:05.860978",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.39829277992248535,
+      "time_since_last": 0.00737452507019043,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476285.8895419,
+      "datetime": "2025-09-21 13:38:05.889542",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1578352451324463,
+      "time_since_last": 0.03593802452087402,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476286.0530393,
+      "datetime": "2025-09-21 13:38:06.053039",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.19943547248840332,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.174326,
+      "datetime": "2025-09-21 13:38:06.174326",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.3207221031188965,
+      "time_since_last": 0.12128663063049316,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476286.3322766,
+      "datetime": "2025-09-21 13:38:06.332277",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2792372703552246,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.4669642,
+      "datetime": "2025-09-21 13:38:06.466964",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1346876621246338,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476286.483535,
+      "datetime": "2025-09-21 13:38:06.483535",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1512584686279297,
+      "time_since_last": 0.0165708065032959,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.5532956,
+      "datetime": "2025-09-21 13:38:06.553296",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.5002562999725342,
+      "time_since_last": 0.08633136749267578,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476286.660688,
+      "datetime": "2025-09-21 13:38:06.660688",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1937236785888672,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.7281065,
+      "datetime": "2025-09-21 13:38:06.728106",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.2611422538757324,
+      "time_since_last": 0.06741857528686523,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476286.8362045,
+      "datetime": "2025-09-21 13:38:06.836205",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.17551660537719727,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.9323118,
+      "datetime": "2025-09-21 13:38:06.932312",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09610724449157715,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476286.9470716,
+      "datetime": "2025-09-21 13:38:06.947072",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.28638362884521484,
+      "time_since_last": 0.01475977897644043,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476286.99781,
+      "datetime": "2025-09-21 13:38:06.997810",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1616053581237793,
+      "time_since_last": 0.06549811363220215,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476287.0396729,
+      "datetime": "2025-09-21 13:38:07.039673",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.1073610782623291,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.1896522,
+      "datetime": "2025-09-21 13:38:07.189652",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.1499793529510498,
+      "time_since_last": 0.1499793529510498,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476287.2007623,
+      "datetime": "2025-09-21 13:38:07.200762",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.16108942031860352,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.319684,
+      "datetime": "2025-09-21 13:38:07.319684",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.11892175674438477,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476287.3276484,
+      "datetime": "2025-09-21 13:38:07.327648",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.3953366279602051,
+      "time_since_last": 0.007964372634887695,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.4123735,
+      "datetime": "2025-09-21 13:38:07.412374",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09268951416015625,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476287.426386,
+      "datetime": "2025-09-21 13:38:07.426386",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10670208930969238,
+      "time_since_last": 0.014012575149536133,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.5024626,
+      "datetime": "2025-09-21 13:38:07.502463",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.09008908271789551,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476287.6155093,
+      "datetime": "2025-09-21 13:38:07.615509",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.11304664611816406,
+      "time_since_last": 0.11304664611816406,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.7372227,
+      "datetime": "2025-09-21 13:38:07.737223",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23476004600524902,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476287.8397417,
+      "datetime": "2025-09-21 13:38:07.839742",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10251903533935547,
+      "time_since_last": 0.10251903533935547,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.8910093,
+      "datetime": "2025-09-21 13:38:07.891009",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.15378665924072266,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476287.9062343,
+      "datetime": "2025-09-21 13:38:07.906234",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.49386072158813477,
+      "time_since_last": 0.015224933624267578,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476287.9199443,
+      "datetime": "2025-09-21 13:38:07.919944",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.719182014465332,
+      "time_since_last": 0.028934955596923828,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476288.0655982,
+      "datetime": "2025-09-21 13:38:08.065598",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.17458891868591309,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476288.16828,
+      "datetime": "2025-09-21 13:38:08.168280",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10268163681030273,
+      "time_since_last": 0.10268163681030273,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476288.3363655,
+      "datetime": "2025-09-21 13:38:08.336365",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.2707672119140625,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476288.4096267,
+      "datetime": "2025-09-21 13:38:08.409627",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.5186173915863037,
+      "time_since_last": 0.07326126098632812,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476288.5493073,
+      "datetime": "2025-09-21 13:38:08.549307",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.21294188499450684,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476288.5838058,
+      "datetime": "2025-09-21 13:38:08.583806",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.03449845314025879,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476288.6235716,
+      "datetime": "2025-09-21 13:38:08.623572",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.03976583480834961,
+      "combo_size": 4
+    },
+    {
+      "timestamp": 1758476288.6307127,
+      "datetime": "2025-09-21 13:38:08.630713",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.29434728622436523,
+      "time_since_last": 0.00714111328125,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476288.6523213,
+      "datetime": "2025-09-21 13:38:08.652321",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.10301399230957031,
+      "time_since_last": 0.028749704360961914,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476288.7415395,
+      "datetime": "2025-09-21 13:38:08.741539",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.11796784400939941,
+      "time_since_last": 0.11796784400939941,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476288.7998834,
+      "datetime": "2025-09-21 13:38:08.799883",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.17631173133850098,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476288.9469037,
+      "datetime": "2025-09-21 13:38:08.946904",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.1470203399658203,
+      "time_since_last": 0.1470203399658203,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476289.0969057,
+      "datetime": "2025-09-21 13:38:09.096906",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.29702234268188477,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476289.5365767,
+      "datetime": "2025-09-21 13:38:09.536577",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.43967103958129883,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476289.5589523,
+      "datetime": "2025-09-21 13:38:09.558952",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.9751465320587158,
+      "time_since_last": 0.02237558364868164,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476290.1598818,
+      "datetime": "2025-09-21 13:38:10.159882",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.623305082321167,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476290.2030864,
+      "datetime": "2025-09-21 13:38:10.203086",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.6665096282958984,
+      "time_since_last": 0.043204545974731445,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476290.8160732,
+      "datetime": "2025-09-21 13:38:10.816073",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 1.7191674709320068,
+      "time_since_last": 0.656191349029541,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476291.074798,
+      "datetime": "2025-09-21 13:38:11.074798",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.9149162769317627,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476291.1207154,
+      "datetime": "2025-09-21 13:38:11.120715",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.9608335494995117,
+      "time_since_last": 0.04591727256774902,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476291.2033112,
+      "datetime": "2025-09-21 13:38:11.203311",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12851309776306152,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476291.3398883,
+      "datetime": "2025-09-21 13:38:11.339888",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.13657712936401367,
+      "time_since_last": 0.13657712936401367,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476291.4859853,
+      "datetime": "2025-09-21 13:38:11.485985",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.28267407417297363,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476291.567748,
+      "datetime": "2025-09-21 13:38:11.567748",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.08176279067993164,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476291.6098,
+      "datetime": "2025-09-21 13:38:11.609800",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.5350019931793213,
+      "time_since_last": 0.04205203056335449,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476291.6283848,
+      "datetime": "2025-09-21 13:38:11.628385",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.14239954948425293,
+      "time_since_last": 0.06063675880432129,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476291.8117492,
+      "datetime": "2025-09-21 13:38:11.811749",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.24400115013122559,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476291.8863032,
+      "datetime": "2025-09-21 13:38:11.886303",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.3185551166534424,
+      "time_since_last": 0.0745539665222168,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476292.1580865,
+      "datetime": "2025-09-21 13:38:12.158087",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.34633731842041016,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476292.1734307,
+      "datetime": "2025-09-21 13:38:12.173431",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.3616814613342285,
+      "time_since_last": 0.01534414291381836,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476292.443737,
+      "datetime": "2025-09-21 13:38:12.443737",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.28565049171447754,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476292.4599876,
+      "datetime": "2025-09-21 13:38:12.459988",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.30190110206604004,
+      "time_since_last": 0.0162506103515625,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476292.6819396,
+      "datetime": "2025-09-21 13:38:12.681940",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.23820257186889648,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476292.7051418,
+      "datetime": "2025-09-21 13:38:12.705142",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.26140475273132324,
+      "time_since_last": 0.023202180862426758,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476293.0338054,
+      "datetime": "2025-09-21 13:38:13.033805",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.3518657684326172,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476293.4249475,
+      "datetime": "2025-09-21 13:38:13.424948",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.3911421298980713,
+      "time_since_last": 0.3911421298980713,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476293.8200624,
+      "datetime": "2025-09-21 13:38:13.820062",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.7862570285797119,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476294.770691,
+      "datetime": "2025-09-21 13:38:14.770691",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.9506285190582275,
+      "time_since_last": 0.9506285190582275,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476294.9155142,
+      "datetime": "2025-09-21 13:38:14.915514",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 1.095451831817627,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476294.994115,
+      "datetime": "2025-09-21 13:38:14.994115",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.07860088348388672,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476295.0078132,
+      "datetime": "2025-09-21 13:38:15.007813",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 2.325873613357544,
+      "time_since_last": 0.013698101043701172,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476295.0218236,
+      "datetime": "2025-09-21 13:38:15.021824",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.10630941390991211,
+      "time_since_last": 0.02770853042602539,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476295.382644,
+      "datetime": "2025-09-21 13:38:15.382644",
+      "action": "space",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.38852882385253906,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476295.5108461,
+      "datetime": "2025-09-21 13:38:15.510846",
+      "action": "w",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.12820219993591309,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476295.567915,
+      "datetime": "2025-09-21 13:38:15.567915",
+      "action": "space",
+      "event_type": "release",
+      "hold_duration": 0.1852710247039795,
+      "time_since_last": 0.057068824768066406,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476295.5839596,
+      "datetime": "2025-09-21 13:38:15.583960",
+      "action": "d",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.07311344146728516,
+      "combo_size": 3
+    },
+    {
+      "timestamp": 1758476295.6377652,
+      "datetime": "2025-09-21 13:38:15.637765",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.6436500549316406,
+      "time_since_last": 0.05380558967590332,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476295.6653013,
+      "datetime": "2025-09-21 13:38:15.665301",
+      "action": "w",
+      "event_type": "release",
+      "hold_duration": 0.15445518493652344,
+      "time_since_last": 0.08134174346923828,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476295.8058808,
+      "datetime": "2025-09-21 13:38:15.805881",
+      "action": "a",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.22192120552062988,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476295.8352182,
+      "datetime": "2025-09-21 13:38:15.835218",
+      "action": "d",
+      "event_type": "release",
+      "hold_duration": 0.25125861167907715,
+      "time_since_last": 0.029337406158447266,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476296.008918,
+      "datetime": "2025-09-21 13:38:16.008918",
+      "action": "s",
+      "event_type": "press",
+      "hold_duration": 0,
+      "time_since_last": 0.20303726196289062,
+      "combo_size": 2
+    },
+    {
+      "timestamp": 1758476296.0539794,
+      "datetime": "2025-09-21 13:38:16.053979",
+      "action": "a",
+      "event_type": "release",
+      "hold_duration": 0.24809861183166504,
+      "time_since_last": 0.045061349868774414,
+      "combo_size": 1
+    },
+    {
+      "timestamp": 1758476296.2571256,
+      "datetime": "2025-09-21 13:38:16.257126",
+      "action": "s",
+      "event_type": "release",
+      "hold_duration": 0.24820756912231445,
+      "time_since_last": 0.24820756912231445,
+      "combo_size": 0
+    }
+  ],
+  "training_data": {
+    "X": [
+      [
+        0.12840557098388672,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.08501982688903809,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.09016609191894531,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.11462831497192383,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.1157827377319336,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.28708529472351074,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.3239598274230957,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.24120211601257324,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.17786097526550293,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.23672080039978027,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.06483674049377441,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13794374465942383,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.11366558074951172,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.1645963191986084,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13232016563415527,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.11764240264892578,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.18843483924865723,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0931711196899414,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3649871349334717,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.09423661231994629,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.3125882148742676,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.406238317489624,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.585536003112793,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.31716489791870117,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.22136473655700684,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.5134537220001221,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1019749641418457,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.13435149192810059,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12658977508544922,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.20392227172851562,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.4604177474975586,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.18373584747314453,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.13289356231689453,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.272336483001709,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2156209945678711,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.5610666275024414,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.3685626983642578,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.33047914505004883,
+        0.2,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.10131168365478516,
+        0.2,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.4580650329589844,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.29306530952453613,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.08214044570922852,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2531602382659912,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.17141509056091309,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.10979938507080078,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.013913393020629883,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.23063921928405762,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.14741802215576172,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.23551607131958008,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.32659363746643066,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.24080586433410645,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.08998608589172363,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.25956249237060547,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.14038944244384766,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.18900227546691895,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.16919279098510742,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.26760339736938477,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2611269950866699,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.21471118927001953,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0857386589050293,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2963111400604248,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.34690237045288086,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.16744685173034668,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.19087910652160645,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.32472729682922363,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2038593292236328,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.07901477813720703,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.29482126235961914,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.2870461940765381,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.47844529151916504,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.48093128204345703,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2525646686553955,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.07011842727661133,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.38511061668395996,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.2285747528076172,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.4148554801940918,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.1201326847076416,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1883389949798584,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3618462085723877,
+        0.4,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.041822195053100586,
+        0.6,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.30103492736816406,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0816347599029541,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1754608154296875,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.10059571266174316,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.23966407775878906,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.2405989170074463,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.14282751083374023,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12349915504455566,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.09924030303955078,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.18931865692138672,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.1516265869140625,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.24335813522338867,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.025662899017333984,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.12189722061157227,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.19943547248840332,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.2792372703552246,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1346876621246338,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1937236785888672,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.17551660537719727,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.09610724449157715,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.1073610782623291,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.16108942031860352,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.11892175674438477,
+        0.6,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.09268951416015625,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.09008908271789551,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.15378665924072266,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.17458891868591309,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.2707672119140625,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.21294188499450684,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.03449845314025879,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.03976583480834961,
+        0.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.17631173133850098,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.29702234268188477,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.43967103958129883,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.623305082321167,
+        0.6,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.9149162769317627,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.12851309776306152,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.28267407417297363,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.08176279067993164,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.24400115013122559,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.34633731842041016,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.28565049171447754,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.23820257186889648,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3518657684326172,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        1.095451831817627,
+        0.4,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.07860088348388672,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.38852882385253906,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.12820219993591309,
+        0.6,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.07311344146728516,
+        0.6,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.22192120552062988,
+        0.4,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.20303726196289062,
+        0.4,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "Y": [
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "summary": {
+    "total_events": 270,
+    "total_presses": 135,
+    "session_duration": 31.13866400718689,
+    "avg_hold_duration": 0.34676032066345214,
+    "key_counts": {
+      "w": 34,
+      "a": 37,
+      "s": 9,
+      "d": 30,
+      "space": 25
+    }
+  }
+}

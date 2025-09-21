@@ -1,10 +1,9 @@
 {
     "settings": {
-        "model_name": "Erratic",
+        "model_name": "Fighter",
         "model_version": "v.1.0.0",
         "movement_data_path": "movement_predictor\\src\\models\\{model_name}\\{model_version}\\movement_data.json",
         "model_data_path": "movement_predictor\\src\\models\\{model_name}\\{model_version}\\model_data.json",
-        "information": "movement_predictor\\src\\models\\{model_name}\\information.json",
-        "valid_keys": ["w", "a", "s", "d"]
+        "information": "movement_predictor\\src\\models\\{model_name}\\information.json"
     }
 }

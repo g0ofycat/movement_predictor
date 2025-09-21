@@ -1,0 +1,14 @@
+{
+  "information": {
+    "name": "Jumper",
+    "description": "Basic Model used for general pathfinding and jumping."
+  },
+  
+  "keyboard_settings": {
+    "valid_keys": ["w", "a", "s", "d", "space"],
+    "key_hold_time": 0.2,
+    "hold_deviation": 0.1,
+    "base_interval": 0.05,
+    "randomize_timing": true
+  }
+}

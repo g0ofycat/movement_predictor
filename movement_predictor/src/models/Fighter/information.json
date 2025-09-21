@@ -1,0 +1,14 @@
+{
+  "information": {
+    "name": "Fighter",
+    "description": "Model used for erratic movement and jumping and shiftlocking."
+  },
+  
+  "keyboard_settings": {
+    "valid_keys": ["w", "a", "s", "d", "space", "shift"],
+    "key_hold_time": 0.05,
+    "hold_deviation": 0.1,
+    "base_interval": 0.15,
+    "randomize_timing": false
+  }
+}

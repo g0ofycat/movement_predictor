@@ -35,7 +35,7 @@ network.save_model(settings['settings']['model_data_path'])
 
 network.load_model(settings['settings']['model_data_path'])
 
-predictor = KeyboardPredictor(network, settings['settings']['valid_keys']) 
+predictor = KeyboardPredictor(network, settings['keyboard_settings']['valid_keys']) 
 
 # print(network.get_model_info())
 
