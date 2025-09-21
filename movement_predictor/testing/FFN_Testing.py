@@ -35,8 +35,8 @@ network.save_model(settings['settings']['model_data_path'])
 
 network.load_model(settings['settings']['model_data_path'])
 
-predictor = KeyboardPredictor(network, settings['keyboard_settings']['valid_keys']) 
+predictor = KeyboardPredictor(network, settings['keyboard_settings']['valid_keys'], settings['keyboard_settings']['base_interval'], settings['keyboard_settings']['randomize_timing'], settings['keyboard_settings']['key_hold_time'], settings['keyboard_settings']['hold_deviation'], settings['information']['temperature']) 
 
 # print(network.get_model_info())
 
-predictor.auto_press_keys()
+predictor.auto_press_keys('Q', settings['keyboard_settings']['base_interval'], settings['keyboard_settings']['randomize_timing'])

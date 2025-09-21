@@ -4,12 +4,15 @@ import random
 import keyboard
 from typing import List
 
-from src.config.settings import settings
-
 class KeyboardPredictor:
-    def __init__(self, network, key_order: List[str]):
+    def __init__(self, network, key_order: List[str], base_interval: float, randomize_timing: bool, key_hold_time: int, hold_deviation: int, temperature: float = 1.0):
         self.net = network
         self.key_order = key_order
+        self.base_interval = base_interval
+        self.randomize_timing = randomize_timing
+        self.key_hold_time = key_hold_time
+        self.hold_deviation = hold_deviation
+        self.temperature = temperature
         self.last_action = None
         self.last_action_time = None
         self.action_count = 0
@@ -41,7 +44,7 @@ class KeyboardPredictor:
         self.last_action_time = None
         self.action_count = 0
 
-    def auto_press_keys(self, stop_key='q', base_interval=settings['keyboard_settings']['base_interval'], randomize_timing=settings['keyboard_settings']['randomize_timing']):
+    def auto_press_keys(self, stop_key, base_interval: float, randomize_timing: bool):
         stop_key = stop_key.lower()
         prev_key = self.key_order[0]
         is_running = False
@@ -78,7 +81,7 @@ class KeyboardPredictor:
                     
                     if time_since_last >= base_interval:
                         combo_size = 2 if random.random() < 0.1 else 1
-                        next_key = self.predict_next_key(prev_key, time_since_last, combo_size, settings['information']['temperature'])
+                        next_key = self.predict_next_key(prev_key, time_since_last, combo_size, self.temperature)
                         
                         if next_key != prev_key:
                             keyboard.release(prev_key)
@@ -92,11 +95,11 @@ class KeyboardPredictor:
 
                 if randomize_timing:
                     sleep_time = random.uniform(
-                        settings["keyboard_settings"]["key_hold_time"] - settings["keyboard_settings"]["hold_deviation"],
-                        settings["keyboard_settings"]["key_hold_time"] + settings["keyboard_settings"]["hold_deviation"]
+                        self.key_hold_time - self.hold_deviation,
+                        self.key_hold_time + self.hold_deviation
                     )
                 else:
-                    sleep_time = settings['keyboard_settings']['key_hold_time']
+                    sleep_time = self.key_hold_time
 
                 end_time = time.time() + sleep_time
                 
