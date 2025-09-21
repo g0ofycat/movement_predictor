@@ -100,6 +100,9 @@ class FeedForwardNetwork:
             dW = activations[layer].T @ delta
             db = np.sum(delta, axis=0, keepdims=True)
 
+            np.clip(dW, -1.0, 1.0, out=dW)
+            np.clip(db, -1.0, 1.0, out=db)
+
             self.weights[layer] -= learning_rate * dW
             self.biases[layer] -= learning_rate * db
 
