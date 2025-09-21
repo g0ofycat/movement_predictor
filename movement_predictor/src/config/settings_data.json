@@ -1,8 +1,10 @@
 {
     "settings": {
-        "movement_data_path": "movement_predictor\\src\\models\\Erratic\\v.1.0.0\\movement_data.json",
-        "model_data_path": "movement_predictor\\src\\models\\Erratic\\v.1.0.0\\model_data.json",
-        "information": "movement_predictor\\src\\models\\Erratic\\information.json",
+        "model_name": "Erratic",
+        "model_version": "v.1.0.0",
+        "movement_data_path": "movement_predictor\\src\\models\\{model_name}\\{model_version}\\movement_data.json",
+        "model_data_path": "movement_predictor\\src\\models\\{model_name}\\{model_version}\\model_data.json",
+        "information": "movement_predictor\\src\\models\\{model_name}\\information.json",
         "valid_keys": ["w", "a", "s", "d"]
     }
 }
