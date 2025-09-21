@@ -1,7 +1,8 @@
 {
   "information": {
     "name": "Erratic",
-    "description": "Basic Model for erratic movement."
+    "description": "Basic Model for erratic movement.",
+    "temperature": 0.1
   },
   
   "keyboard_settings": {

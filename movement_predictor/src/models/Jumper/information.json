@@ -1,7 +1,8 @@
 {
   "information": {
     "name": "Jumper",
-    "description": "Basic Model used for general pathfinding and jumping."
+    "description": "Basic Model used for general pathfinding and jumping.",
+    "temperature": 0.1
   },
   
   "keyboard_settings": {

@@ -14,7 +14,7 @@ class KeyboardPredictor:
         self.last_action_time = None
         self.action_count = 0
 
-    def predict_next_key(self, prev_action: str, time_delta: float, combo_size: int = 1) -> str:
+    def predict_next_key(self, prev_action: str, time_delta: float, combo_size: int = 1, temperature: float = 1.0) -> str:
         features = [
             min(time_delta, 2.0),
             combo_size / len(self.key_order)
@@ -22,11 +22,18 @@ class KeyboardPredictor:
 
         prev_key_onehot = [1 if prev_action == k else 0 for k in self.key_order]
         features.extend(prev_key_onehot)
-        
+
         X_test = np.array([features])
         pred_probs = self.net.predict(X_test)[0]
 
-        pred_idx = np.argmax(pred_probs)
+        if temperature != 1.0:
+            logits = np.log(pred_probs + 1e-9) / temperature
+            probs = np.exp(logits) / np.sum(np.exp(logits))
+        else:
+            probs = pred_probs
+
+        pred_idx = np.random.choice(len(self.key_order), p=probs)
+
         return self.key_order[pred_idx]
 
     def reset_state(self):
@@ -71,7 +78,7 @@ class KeyboardPredictor:
                     
                     if time_since_last >= base_interval:
                         combo_size = 2 if random.random() < 0.1 else 1
-                        next_key = self.predict_next_key(prev_key, time_since_last, combo_size)
+                        next_key = self.predict_next_key(prev_key, time_since_last, combo_size, settings['information']['temperature'])
                         
                         if next_key != prev_key:
                             keyboard.release(prev_key)

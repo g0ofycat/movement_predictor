@@ -1,7 +1,8 @@
 {
   "information": {
     "name": "Wanderer",
-    "description": "Basic Model used for general pathfinding."
+    "description": "Basic Model used for general pathfinding.",
+    "temperature": 0.1
   },
   
   "keyboard_settings": {

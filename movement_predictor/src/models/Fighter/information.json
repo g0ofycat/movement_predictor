@@ -1,7 +1,8 @@
 {
   "information": {
     "name": "Fighter",
-    "description": "Model used for erratic movement and jumping and shiftlocking."
+    "description": "Model used for erratic movement and jumping and shiftlocking.",
+    "temperature": 0.4
   },
   
   "keyboard_settings": {
