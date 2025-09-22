@@ -5,7 +5,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 # === IMPORTS ===
 
 from src.classes.class_FFN import FeedForwardNetwork
-from src.classes.class_KeyboardPredictor import KeyboardPredictor
+from src.classes.class_MovementPredictor import MovementPredictor
 from src.classes.class_MovementLogger import MovementLogger
 from src.config.settings import settings
 
@@ -35,7 +35,7 @@ network.save_model(settings['settings']['model_data_path'])
 
 network.load_model(settings['settings']['model_data_path'])
 
-predictor = KeyboardPredictor(network, settings['keyboard_settings']['valid_keys'], settings['keyboard_settings']['base_interval'], settings['keyboard_settings']['randomize_timing'], settings['keyboard_settings']['key_hold_time'], settings['keyboard_settings']['hold_deviation'], settings['information']['temperature'])
+predictor = MovementPredictor(network, settings['keyboard_settings']['valid_keys'], settings['keyboard_settings']['base_interval'], settings['keyboard_settings']['randomize_timing'], settings['keyboard_settings']['key_hold_time'], settings['keyboard_settings']['hold_deviation'], settings['information']['temperature'])
 
 # print(network.get_model_info())
 

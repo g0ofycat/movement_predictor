@@ -4,7 +4,7 @@ import random
 import keyboard
 from typing import List
 
-class KeyboardPredictor:
+class MovementPredictor:
     def __init__(self, network, key_order: List[str], base_interval: float, randomize_timing: bool, key_hold_time: int, hold_deviation: int, temperature: float = 1.0):
         self.net = network
         self.key_order = key_order
