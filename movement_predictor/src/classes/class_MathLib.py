@@ -8,6 +8,10 @@ class MathLib:
         return np.maximum(0, x)
 
     @classmethod
+    def LeakyReLU(cls, x: np.ndarray, alpha=0.01):
+        return np.where(x > 0, x, alpha * x)
+
+    @classmethod
     def GeLU(cls, x: np.ndarray) -> np.ndarray:
         return 0.5 * x * (1 + np.tanh(np.sqrt(2 / np.pi) * (x + 0.044715 * x**3)))
       
@@ -21,16 +25,20 @@ class MathLib:
     @classmethod
     def ReLU_derivative(cls, x: np.ndarray) -> np.ndarray:
         return (x > 0).astype(float)
-
-    @classmethod
-    def Sigmoid_derivative(cls, x: np.ndarray) -> np.ndarray:
-        s = cls.Sigmoid(x)
-        return s * (1 - s)
     
+    @classmethod
+    def LeakyReLU_derivative(cls, x: np.ndarray, alpha=0.01):
+        return np.where(x > 0, 1, alpha)
+
     @classmethod
     def GeLU_derivative(cls, x: np.ndarray) -> np.ndarray:
         tanh_term = np.tanh(np.sqrt(2/np.pi)*(x + 0.044715*x**3))
         return 0.5 * (1 + tanh_term + x*(1 - tanh_term**2) * np.sqrt(2/np.pi)*(1 + 3*0.044715*x**2))
+    
+    @classmethod
+    def Sigmoid_derivative(cls, x: np.ndarray) -> np.ndarray:
+        s = cls.Sigmoid(x)
+        return s * (1 - s)
       
     # ====== OUTPUT & LOSS FUNCTIONS ======
     

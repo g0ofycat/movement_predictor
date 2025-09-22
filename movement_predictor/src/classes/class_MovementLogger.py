@@ -9,12 +9,12 @@ class MovementLogger:
     def __init__(self, stop_key: str, save_path: str, valid_keys: List[str]):
         self.collecting = False
         self.data: List[Dict] = []
-        self.last_action_time = None
         self.valid_keys = valid_keys
         self.stop_key = stop_key.lower()
         self.save_path = save_path
         self.key_press_times = {}
         self.currently_pressed = set()
+        self.key_last_action_time = {k: None for k in valid_keys}
 
     def start_logging(self):
         self.collecting = True
@@ -84,8 +84,17 @@ class MovementLogger:
             self._log_action(key, 'release', now, hold_duration)
 
     def _log_action(self, action: str, event_type: str, timestamp: float, hold_duration: float = 0):
-        time_delta = timestamp - self.last_action_time if self.last_action_time else 0
-        
+        last_time = self.key_last_action_time.get(action)
+        time_delta = timestamp - last_time if last_time else 0
+
+        MIN_VELOCITY = -10
+        MAX_VELOCITY = 10
+        MIN_DELTA = 0.01
+        MAX_DELTA = 1.0
+
+        clamped_delta = max(MIN_DELTA, min(time_delta, MAX_DELTA))
+        normalized_velocity = MAX_VELOCITY - (clamped_delta - MIN_DELTA) / (MAX_DELTA - MIN_DELTA) * (MAX_VELOCITY - MIN_VELOCITY)
+
         action_data = {
             'timestamp': timestamp,
             'datetime': str(datetime.fromtimestamp(timestamp)),
@@ -93,16 +102,18 @@ class MovementLogger:
             'event_type': event_type,
             'hold_duration': hold_duration,
             'time_since_last': time_delta,
-            'combo_size': len(self.currently_pressed)
+            'combo_size': len(self.currently_pressed),
+            'normalized_velocity': normalized_velocity
         }
 
         self.data.append(action_data)
-        
+
         if event_type == 'press':
-            self.last_action_time = timestamp
+            self.key_last_action_time[action] = timestamp
 
         print(f"[{len(self.data)}] {action.upper()}-{event_type} "
-              f"(DeltaTime: {time_delta:.2f}s, Hold: {hold_duration:.2f}s)")
+            f"(DeltaTime: {time_delta:.2f}s, Hold: {hold_duration:.2f}s, "
+            f"Velocity: {normalized_velocity:.2f})")
 
     def _get_summary(self):
         if not self.data:
