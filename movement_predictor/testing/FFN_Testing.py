@@ -6,7 +6,7 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from src.classes.class_FFN import FeedForwardNetwork
 from src.classes.class_MovementPredictor import MovementPredictor
-from src.classes.class_MovementLogger import MovementLogger
+from src.training.class_MovementLogger import MovementLogger
 from src.config.settings import settings
 
 # === NETWORK ===
@@ -25,9 +25,11 @@ network = FeedForwardNetwork(input_dim=input_dim, hidden_dim=hidden_dim, output_
 
 # === TRAINING ===
 
+"""
 network.train(X, Y, epochs=epochs, learning_rate=learning_rate, batch_size=32, verbose=True)
 
 network.save_model(settings['settings']['model_data_path'])
+"""
 
 # === PREDICT ===
 
